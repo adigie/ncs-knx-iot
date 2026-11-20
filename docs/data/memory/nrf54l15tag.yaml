@@ -100,13 +100,15 @@ samples:
   layout: debug
   usage:
     nvm:
-      slot0: 467.0
+      boot: 40.0
+      slot0: 428.0
       storage: 36.0
-    ram_used_kb: 138.0
+    ram_used_kb: 110.0
 - label: Light Switch Sensor (Release)
   layout: release
   usage:
     nvm:
-      slot0: 343.0
+      boot: 40.0
+      slot0: 307.0
       storage: 36.0
-    ram_used_kb: 164.0
+    ram_used_kb: 143.0

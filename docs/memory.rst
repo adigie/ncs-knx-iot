@@ -26,8 +26,8 @@ All samples use MCUboot in overwrite-only mode with LZMA2-compressed update imag
 The upgrade slot is therefore smaller than the application slot and is placed in internal non-volatile memory, so no external flash is needed.
 
 Table columns are grouped by internal NVM and RAM.
-Application and RAM cells show used and free space separated by ``/``.
-Other NVM columns (MCUboot, upgrade slot, factory data, and settings) list the reserved partition size for that region.
+MCUboot, application, and RAM cells show used and free space separated by ``/``.
+Other NVM columns (upgrade slot, factory data, and settings) list the reserved partition size for that region.
 
 .. tabs::
 
